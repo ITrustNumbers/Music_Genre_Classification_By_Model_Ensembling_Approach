@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Problem-Music%20Genre%20Classification-red) ![](https://img.shields.io/badge/Technique%20Used-Ensembling-yellow) ![](https://img.shields.io/badge/Validation%20Acc.-97.8%25-informational)
+![](https://img.shields.io/badge/Problem-Music%20Genre%20Classification-red) ![](https://img.shields.io/badge/Technique%20Used-Ensembling-orange) ![](https://img.shields.io/badge/Validation%20Acc.-97.8%25-informational)
 
 # Music Genre Classification by Utilizing Model Ensembling Approach
 
