@@ -2,11 +2,11 @@
 
 <img src="https://images.unsplash.com/photo-1623018035231-ebe361a64c76?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80 " width=100% height=500 />
 
-# The Problem:
+## The Problem:
 
 Audio processing is one of the most complex tasks in artificial intelligence as compared to image processing and other classification techniques. One such application is Music Genre Classification or MGR which aims to classify the audio files in certain categories of sound to which they belong ([Read More](https://en.wikipedia.org/wiki/Music_genre)). This application is very important and requires automation to reduce the manual error and time because if we have to classify the music manually then one has to listen out each file for the complete duration. So to automate the process we use Machine Learning techniques and this project is my attempt at solving this particular problem.
 
-# Summary of my solution (The TL;DR Version):
+## Summary of my solution (The TL;DR Version):
 
 
  - I Utilized the open access dataset called GTZAN. It consists of 1000 clips of songs, 10 for each of the ten genres it contains.  
@@ -31,7 +31,7 @@ Audio processing is one of the most complex tasks in artificial intelligence as 
 - Created an Ensembled model using all three of the trained model using a custom bagging approach with user defined weights
   - Ensembled Model (XGB, CatBoost, Random Forest) - 97.8% Valdiation Accuracy
 
-# The Solution (Long Version)
+## The Solution (Long Version)
 
 ## 1. The Data:
 
@@ -75,4 +75,4 @@ Potential Distorsion in audio files can adversly affect the learning phase, Ther
 
 Top 30 most distorted song were plotted in a histogram coloured by their repective genres to pin-point the genre that should be focuesd:
 
-<img src="https://github.com/ITrustNumbers/Music_Genre_Classification_By_Model_Ensembling_Approach/blob/master/Visualization/Distorsion.png" width=90% height=90% />
+<img src="https://github.com/ITrustNumbers/Music_Genre_Classification_By_Model_Ensembling_Approach/blob/master/Visualization/Distorsion.png" />
