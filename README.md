@@ -33,6 +33,7 @@ Audio processing is one of the most complex tasks in artificial intelligence as 
 - Created an Ensembled model using all three of the trained model using a custom bagging approach with user defined weights
   - Ensembled Model (XGB, CatBoost, Random Forest) - 97.8% Valdiation Accuracy
 
+<!--
 ## The Solution (Long Version)
 
 ## 1. The Data:
@@ -78,3 +79,4 @@ Potential Distorsion in audio files can adversly affect the learning phase, Ther
 Top 30 most distorted song were plotted in a histogram coloured by their repective genres to pin-point the genre that should be focuesd:
 
 <img src="https://github.com/ITrustNumbers/Music_Genre_Classification_By_Model_Ensembling_Approach/blob/master/Visualization/Distorsion.png" />
+-->
